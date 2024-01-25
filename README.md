@@ -1,6 +1,6 @@
-# Para correr la aplicacion
+# Para correr la aplicación
 
-## clonar el repositorio
+Luego de clonar el repositorio, abre una `terminal` e instala los paquetes de Node: `npm i` (asegurate te estar en cd github-repositories-app)
 
 # GithubRepositoriesApp
 
