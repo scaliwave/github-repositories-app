@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class GithubService {
 
-  private baseUrl = 'http://localhost:3000/api/repositories';
+  private baseUrl = '/api/repositories';
   
   constructor(private http: HttpClient) { }
 
