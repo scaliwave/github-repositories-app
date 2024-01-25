@@ -8,11 +8,11 @@ import { Observable } from 'rxjs';
 })
 export class GithubService {
 
-  private apiUrl = 'http://localhost:3000/api/repositories';
+  private baseUrl = '/api/repositories';
   
   constructor(private http: HttpClient) { }
 
   getTopRepos(username:string):Observable<any> {
-    return this.http.get(`${this.apiUrl}/${username}`);
+    return this.http.get(`${this.baseUrl}/${username}`);
   }
 }
