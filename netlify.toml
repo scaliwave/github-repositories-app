@@ -1,4 +1,0 @@
-[build]
-command = "npm run build:monorepo"
-publish = "dist"
-functions = "server"
