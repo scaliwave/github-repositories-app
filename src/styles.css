@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    color-scheme: light dark;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+body{
+    background-color: rgb(5, 28, 44);
+}

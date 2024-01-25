@@ -1,0 +1,17 @@
+<main class="main-content">
+    <div>
+        <h2 class="subtitle">Los 10 repositorios más populares de Google:</h2>
+    </div>
+    <div class="container">
+        <div *ngIf="repositories && repositories.length > 0; else noRepositories">
+            <div class="card" *ngFor="let repo of repositories; let i = index">
+                {{ repo.name }} - {{ repo.stargazers_count }} estrellas
+            </div>
+        </div>
+        <ng-template #noRepositories>
+            <div class="error-message">
+              No se encontraron repositorios.
+            </div>
+          </ng-template>
+    </div>
+</main>
