@@ -1,19 +1,3 @@
-# Para correr la aplicación
-
-## Paso 1
-
-Luego de clonar el repositorio, abre una `terminal` e instala los paquetes de Node: `npm i` (asegurate te estar en: "github-repositories-app")
-
-## paso 2
-Abre otra `terminar` y ejecuta el siguiente comando: `cd server` luego descarga los paquetes de Node: `npm i` (debes estar en "github-repositories-app/server")
-
-## Paso 3
-Corre el `server` en la terminal en la que estas: `node server.js`
-
-## Paso 4 
-corre el `frontend` en la primera terminal: `ng serve`, das click en la url generada y con esto deberias tener corriendo la vista en el puerto 4200 y el servidor en el puerto 3000
-
-
 # GithubRepositoriesApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
